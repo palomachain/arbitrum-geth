@@ -20,12 +20,12 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/palomachain/arbitrum-geth/common"
+	"github.com/palomachain/arbitrum-geth/core/state"
+	"github.com/palomachain/arbitrum-geth/core/types"
+	"github.com/palomachain/arbitrum-geth/core/vm"
+	"github.com/palomachain/arbitrum-geth/params"
+	"github.com/palomachain/arbitrum-geth/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

@@ -22,17 +22,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/palomachain/arbitrum-geth/common"
+	"github.com/palomachain/arbitrum-geth/core"
+	"github.com/palomachain/arbitrum-geth/core/rawdb"
+	"github.com/palomachain/arbitrum-geth/core/state"
+	"github.com/palomachain/arbitrum-geth/core/types"
+	"github.com/palomachain/arbitrum-geth/core/vm"
+	"github.com/palomachain/arbitrum-geth/eth/tracers"
+	"github.com/palomachain/arbitrum-geth/log"
+	"github.com/palomachain/arbitrum-geth/metrics"
+	"github.com/palomachain/arbitrum-geth/trie"
+	"github.com/palomachain/arbitrum-geth/triedb"
 )
 
 var (

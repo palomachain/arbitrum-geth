@@ -22,11 +22,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/triedb/database"
+	"github.com/palomachain/arbitrum-geth/common"
+	"github.com/palomachain/arbitrum-geth/core/types"
+	"github.com/palomachain/arbitrum-geth/log"
+	"github.com/palomachain/arbitrum-geth/trie/trienode"
+	"github.com/palomachain/arbitrum-geth/triedb/database"
 )
 
 // Trie represents a Merkle Patricia Trie. Use New to create a trie that operates

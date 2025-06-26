@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/palomachain/arbitrum-geth"
+	"github.com/palomachain/arbitrum-geth/accounts"
+	"github.com/palomachain/arbitrum-geth/core/types"
+	"github.com/palomachain/arbitrum-geth/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

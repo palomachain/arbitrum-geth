@@ -21,10 +21,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/palomachain/arbitrum-geth/common"
+	"github.com/palomachain/arbitrum-geth/core/types"
+	"github.com/palomachain/arbitrum-geth/rlp"
+	"github.com/palomachain/arbitrum-geth/trie"
 )
 
 // nodeIterator is an iterator to traverse the entire state trie post-order,

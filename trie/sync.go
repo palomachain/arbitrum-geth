@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/palomachain/arbitrum-geth/common"
+	"github.com/palomachain/arbitrum-geth/common/hexutil"
+	"github.com/palomachain/arbitrum-geth/common/prque"
+	"github.com/palomachain/arbitrum-geth/core/rawdb"
+	"github.com/palomachain/arbitrum-geth/core/types"
+	"github.com/palomachain/arbitrum-geth/crypto"
+	"github.com/palomachain/arbitrum-geth/ethdb"
+	"github.com/palomachain/arbitrum-geth/log"
+	"github.com/palomachain/arbitrum-geth/metrics"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

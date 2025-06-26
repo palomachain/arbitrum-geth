@@ -315,7 +315,7 @@ const file_eth_tracers_native_proto_gas_dimension_by_opcode_proto_rawDesc = "" +
 	"\x1e_root_is_precompile_adjustmentB\x1c\n" +
 	"\x1a_root_is_stylus_adjustmentB\t\n" +
 	"\a_failedB\x17\n" +
-	"\x15_transaction_revertedB:Z8github.com/ethereum/go-ethereum/eth/tracers/native/protob\x06proto3"
+	"\x15_transaction_revertedB:Z8github.com/palomachain/arbitrum-geth/eth/tracers/native/protob\x06proto3"
 
 var (
 	file_eth_tracers_native_proto_gas_dimension_by_opcode_proto_rawDescOnce sync.Once

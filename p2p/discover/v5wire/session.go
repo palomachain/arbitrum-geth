@@ -22,10 +22,10 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/palomachain/arbitrum-geth/common/lru"
+	"github.com/palomachain/arbitrum-geth/common/mclock"
+	"github.com/palomachain/arbitrum-geth/crypto"
+	"github.com/palomachain/arbitrum-geth/p2p/enode"
 )
 
 const handshakeTimeout = time.Second

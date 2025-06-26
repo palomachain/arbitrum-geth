@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/palomachain/arbitrum-geth/core/rawdb"
+	"github.com/palomachain/arbitrum-geth/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

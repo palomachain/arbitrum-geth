@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/palomachain/arbitrum-geth/core/tracing"
+	"github.com/palomachain/arbitrum-geth/core/vm"
+	"github.com/palomachain/arbitrum-geth/eth/tracers"
+	"github.com/palomachain/arbitrum-geth/params"
 )
 
 // initializer for the tracer

@@ -5,13 +5,13 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/core/txpool/blobpool"
-	"github.com/ethereum/go-ethereum/core/txpool/legacypool"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/miner"
+	"github.com/palomachain/arbitrum-geth/common"
+	"github.com/palomachain/arbitrum-geth/core"
+	"github.com/palomachain/arbitrum-geth/core/history"
+	"github.com/palomachain/arbitrum-geth/core/txpool/blobpool"
+	"github.com/palomachain/arbitrum-geth/core/txpool/legacypool"
+	"github.com/palomachain/arbitrum-geth/eth/gasprice"
+	"github.com/palomachain/arbitrum-geth/miner"
 )
 
 // MarshalTOML marshals as TOML.

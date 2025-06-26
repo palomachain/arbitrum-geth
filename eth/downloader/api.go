@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/palomachain/arbitrum-geth"
+	"github.com/palomachain/arbitrum-geth/core"
+	"github.com/palomachain/arbitrum-geth/event"
+	"github.com/palomachain/arbitrum-geth/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current

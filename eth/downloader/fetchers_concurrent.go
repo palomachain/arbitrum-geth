@@ -21,10 +21,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/palomachain/arbitrum-geth/common"
+	"github.com/palomachain/arbitrum-geth/common/prque"
+	"github.com/palomachain/arbitrum-geth/eth/protocols/eth"
+	"github.com/palomachain/arbitrum-geth/log"
 )
 
 // timeoutGracePeriod is the amount of time to allow for a peer to deliver a

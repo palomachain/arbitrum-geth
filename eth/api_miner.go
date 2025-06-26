@@ -19,7 +19,7 @@ package eth
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/palomachain/arbitrum-geth/common/hexutil"
 )
 
 // MinerAPI provides an API to control the miner.

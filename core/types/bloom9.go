@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/palomachain/arbitrum-geth/common/hexutil"
+	"github.com/palomachain/arbitrum-geth/crypto"
 )
 
 type bytesBacked interface {

@@ -3,11 +3,11 @@ package arbitrum
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/ethapi/override"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/palomachain/arbitrum-geth/common/hexutil"
+	"github.com/palomachain/arbitrum-geth/core"
+	"github.com/palomachain/arbitrum-geth/internal/ethapi"
+	"github.com/palomachain/arbitrum-geth/internal/ethapi/override"
+	"github.com/palomachain/arbitrum-geth/rpc"
 )
 
 type TransactionArgs = ethapi.TransactionArgs

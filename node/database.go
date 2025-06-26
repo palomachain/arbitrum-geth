@@ -19,11 +19,11 @@ package node
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/palomachain/arbitrum-geth/core/rawdb"
+	"github.com/palomachain/arbitrum-geth/ethdb"
+	"github.com/palomachain/arbitrum-geth/ethdb/leveldb"
+	"github.com/palomachain/arbitrum-geth/ethdb/pebble"
+	"github.com/palomachain/arbitrum-geth/log"
 )
 
 // OpenOptions contains the options to apply when opening a database.

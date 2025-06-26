@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/internal/testrand"
+	"github.com/palomachain/arbitrum-geth/ethdb"
+	"github.com/palomachain/arbitrum-geth/internal/testrand"
 )
 
 // TestAncientSuite runs a suite of tests against an ancient database

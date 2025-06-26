@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/palomachain/arbitrum-geth/common"
 )
 
 func TestTransaction(t *testing.T) {

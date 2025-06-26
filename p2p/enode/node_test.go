@@ -25,8 +25,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/palomachain/arbitrum-geth/p2p/enr"
+	"github.com/palomachain/arbitrum-geth/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

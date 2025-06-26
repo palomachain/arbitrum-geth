@@ -17,18 +17,18 @@
 package blsync
 
 import (
-	"github.com/ethereum/go-ethereum/beacon/light"
-	"github.com/ethereum/go-ethereum/beacon/light/api"
-	"github.com/ethereum/go-ethereum/beacon/light/request"
-	"github.com/ethereum/go-ethereum/beacon/light/sync"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/palomachain/arbitrum-geth/beacon/light"
+	"github.com/palomachain/arbitrum-geth/beacon/light/api"
+	"github.com/palomachain/arbitrum-geth/beacon/light/request"
+	"github.com/palomachain/arbitrum-geth/beacon/light/sync"
+	"github.com/palomachain/arbitrum-geth/beacon/params"
+	"github.com/palomachain/arbitrum-geth/beacon/types"
+	"github.com/palomachain/arbitrum-geth/common"
+	"github.com/palomachain/arbitrum-geth/common/mclock"
+	"github.com/palomachain/arbitrum-geth/ethdb/memorydb"
+	"github.com/palomachain/arbitrum-geth/event"
+	"github.com/palomachain/arbitrum-geth/log"
+	"github.com/palomachain/arbitrum-geth/rpc"
 )
 
 type Client struct {

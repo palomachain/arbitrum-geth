@@ -57,9 +57,9 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/ethereum/go-ethereum/crypto/signify"
-	"github.com/ethereum/go-ethereum/internal/build"
-	"github.com/ethereum/go-ethereum/internal/version"
+	"github.com/palomachain/arbitrum-geth/crypto/signify"
+	"github.com/palomachain/arbitrum-geth/internal/build"
+	"github.com/palomachain/arbitrum-geth/internal/version"
 )
 
 var (
@@ -234,8 +234,8 @@ func buildFlags(env build.Environment, staticLinking bool, buildTags []string) (
 	// cgo-linker further down.
 	ld = append(ld, "--buildid=none")
 	if env.Commit != "" {
-		ld = append(ld, "-X", "github.com/ethereum/go-ethereum/internal/version.gitCommit="+env.Commit)
-		ld = append(ld, "-X", "github.com/ethereum/go-ethereum/internal/version.gitDate="+env.Date)
+		ld = append(ld, "-X", "github.com/palomachain/arbitrum-geth/internal/version.gitCommit="+env.Commit)
+		ld = append(ld, "-X", "github.com/palomachain/arbitrum-geth/internal/version.gitDate="+env.Date)
 	}
 	// Strip DWARF on darwin. This used to be required for certain things,
 	// and there is no downside to this, so we just keep doing it.
@@ -401,8 +401,8 @@ func doCheckGenerate() {
 func doCheckBadDeps() {
 	baddeps := [][2]string{
 		// Rawdb tends to be a dumping ground for db utils, sometimes leaking the db itself
-		{"github.com/ethereum/go-ethereum/core/rawdb", "github.com/ethereum/go-ethereum/ethdb/leveldb"},
-		{"github.com/ethereum/go-ethereum/core/rawdb", "github.com/ethereum/go-ethereum/ethdb/pebbledb"},
+		{"github.com/palomachain/arbitrum-geth/core/rawdb", "github.com/palomachain/arbitrum-geth/ethdb/leveldb"},
+		{"github.com/palomachain/arbitrum-geth/core/rawdb", "github.com/palomachain/arbitrum-geth/ethdb/pebbledb"},
 	}
 	tc := new(build.GoToolchain)
 

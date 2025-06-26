@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	ctypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/palomachain/arbitrum-geth/beacon/engine"
+	"github.com/palomachain/arbitrum-geth/beacon/params"
+	"github.com/palomachain/arbitrum-geth/beacon/types"
+	"github.com/palomachain/arbitrum-geth/common"
+	ctypes "github.com/palomachain/arbitrum-geth/core/types"
+	"github.com/palomachain/arbitrum-geth/log"
+	"github.com/palomachain/arbitrum-geth/rpc"
 )
 
 type engineClient struct {

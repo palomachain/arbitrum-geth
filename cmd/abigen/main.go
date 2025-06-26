@@ -24,12 +24,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/abigen"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common/compiler"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/palomachain/arbitrum-geth/accounts/abi/abigen"
+	"github.com/palomachain/arbitrum-geth/cmd/utils"
+	"github.com/palomachain/arbitrum-geth/common/compiler"
+	"github.com/palomachain/arbitrum-geth/crypto"
+	"github.com/palomachain/arbitrum-geth/internal/flags"
+	"github.com/palomachain/arbitrum-geth/log"
 	"github.com/urfave/cli/v2"
 )
 

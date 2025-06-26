@@ -19,8 +19,8 @@ package simulated
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/palomachain/arbitrum-geth/eth/ethconfig"
+	"github.com/palomachain/arbitrum-geth/node"
 )
 
 // WithBlockGasLimit configures the simulated backend to target a specific gas limit

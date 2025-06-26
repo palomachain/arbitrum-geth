@@ -17,7 +17,7 @@
 package blobpool
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/palomachain/arbitrum-geth/common"
 )
 
 type txMetadata struct {

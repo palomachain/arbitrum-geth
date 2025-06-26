@@ -23,17 +23,17 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/palomachain/arbitrum-geth/cmd/evm/internal/t8ntool"
+	"github.com/palomachain/arbitrum-geth/core/state"
+	"github.com/palomachain/arbitrum-geth/core/tracing"
+	"github.com/palomachain/arbitrum-geth/eth/tracers/logger"
+	"github.com/palomachain/arbitrum-geth/internal/debug"
+	"github.com/palomachain/arbitrum-geth/internal/flags"
 	"github.com/urfave/cli/v2"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
-	_ "github.com/ethereum/go-ethereum/eth/tracers/native"
+	_ "github.com/palomachain/arbitrum-geth/eth/tracers/js"
+	_ "github.com/palomachain/arbitrum-geth/eth/tracers/native"
 )
 
 // Some other nice-to-haves:

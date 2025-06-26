@@ -29,8 +29,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/palomachain/arbitrum-geth/accounts/abi"
+	"github.com/palomachain/arbitrum-geth/log"
 )
 
 func isKeyWord(arg string) bool {
